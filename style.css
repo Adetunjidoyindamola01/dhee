@@ -1,9 +1,9 @@
 *{
-    border-radius: 24px;
+    border-radius: 20px;
 }
 
 body {
-    line-height: 1.5;
+    line-height: 20px;
 
 }
 
@@ -15,32 +15,37 @@ body {
 }
 
 .name {
-    line-height: 0.5;
-    text-align: left;
+    margin-left: 15px;
 }
 
 .email {
     text-align: left;
     line-height: 0.5;
+    margin-left: 40px;
 }
 
 .about {
-    font-size: 32px;
+    font-size: 20px;
     font-family: sans-serif;
     line-height: 1;
+    margin-left: 15px;
 
 }
 
 .profile {
     max-width: 60%;
+    margin-left: 15px;
+    line-height: 35px;
+    text-align: left;
 }
 
 .wrapper {
-    width: 30%;
     background-color: purple;
     color: white;
-    padding: 2%;
-    margin: 0 ;
+    width: 550px;
+    margin-left: 20px;
+    padding: 8px 15px ;
+    height: 610px;
 }
 
 .button a {
@@ -49,5 +54,6 @@ body {
     text-decoration: none;
     font-size: 32px;
     color: purple;
-
+    height: 35px;
+    width: 65px;
 }
